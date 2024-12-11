@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Resume</h1>
+    <nav>
+      <ul>
+        <li><a href="assi1.html">Home</a></li>
+        <li><a href="bio.html">Bio-Data</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="work-experience">
+      <h2>Work Experience</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Software Developer</strong> - ABC Corp (2020 - Present)</li>
+          <li><strong>Web Developer</strong> - XYZ Ltd (2018 - 2020)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <ul>
+          <li><strong>BS in Computer Science</strong> - University of XYZ (2014 - 2018)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Node.js</li>
+          <li>Git, SQL</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 John Doe</p>
+  </footer>
+
+  <script src="sc.js"></script>
+</body>
+</html>
